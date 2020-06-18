@@ -1,4 +1,4 @@
-# Internet of Things Assignment 2
+# Car rental Service hosted on a Raspberry Pi using flask
 ###### Peter Moorhead 
 ## Car Rental Service
 
