@@ -1,0 +1,16 @@
+{% if typeOfUser == 'Admin' %}
+{% extends 'adminLayout.html' %}
+{% elif typeOfUser == 'Engineer' %}
+{% extends 'engineerLayout.html' %}
+{% elif typeOfUser == 'Manager' %}
+{% extends 'managerLayout.html' %}
+{% else %}
+{% extends 'layout.html' %}
+{% endif %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Home page</h2>
+<p>Welcome Admin, {{ username }}!</p>
+<p> Placeholder for thirds assignment</p>
+{% endblock %}
