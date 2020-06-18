@@ -1,9 +1,8 @@
 # Internet of Things Assignment 2
-###### Peter Moorhead s3602584, Taylor Cairns s3603013, Timothy Dalzotto s3603837, Joel Liang Shien Tan s3758729
+###### Peter Moorhead 
 ## Car Rental Service
 
-This repo aims to solve the assignment 3 of Internet of Things describing a car rental system
-hosted on a raspberry pi and accessed through a combination of a Flask webapp and API.
+A car rental system hosted on a raspberry pi and accessed through a combination of a Flask webapp and API.
 Users will be able to register an account and login.
 Search Cars available for hire
 Make bookings and link their google calendar to tell them when they have their car
